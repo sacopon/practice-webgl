@@ -1,0 +1,19 @@
+{
+  "name": "practice-webgl",
+  "version": "1.0.0",
+  "description": "[実践プログラミング WebGL HTML&JavaScriptによる3Dグラフィックス開発](https://www.amazon.co.jp/dp/4798129534/)のソースコードを写経するリポジトリです。",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "build": "webpack --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
